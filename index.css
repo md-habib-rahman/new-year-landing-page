@@ -417,3 +417,51 @@ form input[type="button"] {
   font-size: 20px;
   font-weight: 500;
 }
+
+footer {
+  background-color: #070211;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.footer-content {
+  color: #ffffff;
+  font-family: "Inter", serif;
+}
+
+.e-address div {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.contact-details {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.footer-content hr {
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  margin-bottom: 30px;
+}
+
+.address p {
+  width: 250px;
+}
+.social-icons {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.social-icons img {
+  width: 50px;
+  margin-right: 20px;
+}
+
+.copyright-text {
+  display: flex;
+  justify-content: space-between;
+  /* margin-bottom: 100px; */
+}
