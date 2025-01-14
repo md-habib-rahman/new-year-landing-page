@@ -367,11 +367,53 @@ body::before {
 }
 
 .news-letter {
-  height: 610px;
+  max-height: 610px;
+  margin-bottom: 120px;
 }
 
 .news-letter-overlay {
   background-color: rgba(255, 0, 0, 0.05);
   border-radius: 16px;
   height: 100%;
+  padding: 80px 210px 80px 210px;
+  text-align: center;
+}
+.news-letter-overlay h4 {
+  font-family: "Merriweather", serif;
+  font-size: 48px;
+  font-weight: 900;
+  color: #070211;
+}
+.news-letter-overlay p {
+  font-family: "Inter", serif;
+  font-size: 20px;
+  font-weight: 400;
+  color: rgba(7, 2, 17, 0.6);
+  margin: 30px 0;
+}
+form div {
+  width: 100%;
+  display: flex;
+  gap: 0;
+  align-items: center;
+  justify-content: center;
+}
+form input[type="email"] {
+  width: 70%;
+  padding: 25px 30px;
+  border: 0;
+  background-color: rgba(255, 255, 255, 0.4);
+  font-size: 20px;
+  border-radius: 50px 0 0 50px;
+}
+
+form input[type="button"] {
+  width: 30%;
+  background-color: #ff0000;
+  border: none;
+  padding: 25px 30px;
+  color: #ffffff;
+  border-radius: 0 50px 50px 0;
+  font-size: 20px;
+  font-weight: 500;
 }
