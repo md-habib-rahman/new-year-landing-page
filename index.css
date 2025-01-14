@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap");
+
+/* font-family: "Merriweather", serif;
+font-family: "Inter", serif; */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  height: 100vh;
+  background-color: #ffffff;
+  position: relative;
+}
+
+body::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 10%;
+  right: 10%;
+  height: 100%;
+  background-image: repeating-linear-gradient(
+    to right,
+    rgba(255, 0, 0, 0.1) 0,
+    rgba(255, 0, 0, 0.1) calc((100% - 11 * 24px) / 12),
+    /* Column width */ transparent calc((100% - 11 * 24px) / 12),
+    transparent calc((100% - 11 * 24px) / 12 + 24px)
+  );
+  background-size: calc(100% - 280px) 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  pointer-events: none;
+  z-index: -1;
+}
+
+h1,
+p {
+  text-align: center;
+  color: #333;
+  margin: 0;
+}
